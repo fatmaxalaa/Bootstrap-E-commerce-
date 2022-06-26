@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>akira-elementor</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+                integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+                crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;900&display=swap"
+                rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<!-- header section  -->
+        <section class="header ">
+                <header id="top">
+                        <div class="topheader d-none d-md-block">
+                                <div class="container">
+                                        <div class="row justify-content-center">
+                                                <div class="col-md-6">
+                                                        <img src="img/usa.svg" alt="" width="18px" height="12px" class="usa">
+                                                        <a class="navbar-brand">
+                                                                <div class="btn-group dropbtt">
+                                                                        <button class="btn btn-sm dropdown-toggle langbtt" type="button" data-toggle="dropdown"
+                                                                                aria-haspopup="true" aria-expanded="false">
+                                                                                ENGLISH
+                                                                        </button>
+                                                                         <div class="dropdown-menu langdrop">
+                                                                                 <p class="eng">
+                                                                                        <span>
+                                                                                                <img src="img/usa.svg" alt="" width="18px" height="12px"  class="usa">
+                                                                                        </span>
+                                                                                        <span class="engtext">English</span>
+                                                                                </p>
+                                                                                 <p class="eng">
+                                                                                        <span>
+                                                                                                <img src="img/esp.svg" alt="" width="18px" height="12px"  class="usa">
+                                                                                        </span>
+                                                                                        <span class="engtext">Español</span>
+                                                                                </p>
+                                                                                 <p class="eng">
+                                                                                        <span>
+                                                                                                <img src="img/fra.svg" alt="" width="18px" height="12px"  class="usa">
+                                                                                        </span>
+                                                                                        <span class="engtext">Français</span>
+                                                                                </p>
+                                                                                 <p class="eng">
+                                                                                        <span>
+                                                                                                <img src="img/ita.svg" alt="" width="18px" height="12px"  class="usa">
+                                                                                        </span>
+                                                                                        <span class="engtext">Italiano</span>
+                                                                                </p>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="btn-group currencydrop">
+                                                                        <button class="btn btn-sm dropdown-toggle langbtt" type="button" data-toggle="dropdown"
+                                                                                aria-haspopup="true" aria-expanded="false">
+                                                                                $USD
+                                                                        </button>
+                                                                        <div class="dropdown-menu currency">
+                                                                                <p class="currencyshort">EUR €</p>
+                                                                                <P class="currencyshort">USD $</P>
+                                                                               
+                                                                        </div>
+                                                                </div>
+                                                        </a>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <form class="form-inline">
+                                                                <div class="wishlist">
+                                                                        <span> <i class="far fa-heart"></i></span>
+                                                                        <span class="text">My Whishlist</span>
+                                                                        <span class="no"> 0 </span>
+                                                                </div>
+                                                                <div class="compare">
+                                                                        <span><i class="fas fa-compress-arrows-alt"></i></span>
+                                                                        <span class="text">Compare</span>
+                                                                        <span class="no"> 0 </span>
+                                                                </div>
+                                                                
+                                                        </form>
+                                                </div>
+                                        </div>
+                                </div>
+                                
+                        </div>
+                        <div class="bottheader">
+                                <div class="container">
+                                        <div>
+                                                <nav class="navbar navbar-expand-lg navbar-light order-1">
+                                                        <a class="navbar-brand col-md-2 col-4" href="#">
+                                                                <h3>
+                                                                        <img src="img/akira-logo.png" alt="" class="img">
+                                                                </h3>
+                                                        </a>
+                                                        <button class="navbar-toggler menubtt order-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                                                <span class="navbar-toggler-icon"></span>
+                                                        </button>
+                                                        <div class="collapse navbar-collapse col-md-8 middledrops" id="navbarSupportedContent">
+                                                                <div class="dropdown">
+                                                                        <a class="btn btn-secondary dropdown-toggle btt" href="#" role="button" id="dropdownMenuLink"
+                                                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                                Home
+                                                                        </a>
+                                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                                <a class="dropdown-item" href="#">Demo Fashion 1</a>
+                                                                                <a class="dropdown-item" href="#">Demo Fashion 2</a>
+                                                                                <a class="dropdown-item" href="#">Demo Organic</a>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="dropdown">
+                                                                        <a class="btn btn-secondary dropdown-toggle btt" href="#" role="button" id="dropdownMenuLink"
+                                                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                                Shop
+                                                                        </a>
+                                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="dropdown">
+                                                                        <a class="btn btn-secondary dropdown-toggle btt" href="#" role="button" id="dropdownMenuLink"
+                                                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                                Blog
+                                                                        </a>
+                                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="dropdown">
+                                                                        <a class="btn btn-secondary dropdown-toggle btt" href="#" role="button" id="dropdownMenuLink"
+                                                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                                Pages
+                                                                        </a>
+                                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="dropdown">
+                                                                        <a class="btn btn-secondary dropdown-toggle btt" href="#" role="button" id="dropdownMenuLink"
+                                                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                                Elementor Live
+                                                                        </a>
+                                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                                        </div>
+                                                                </div>
+                                                                <a class="btt2" href="#" >
+                                                                        Buy
+                                                                </a>
+                                                        </div>
+                                                        <div class="icons col-md-2 col-4 order-2">
+                                                                <i class="far fa-search"></i>
+                                                                <i class="far fa-shopping-cart"></i>
+                                                                <!-- <sup class="sup">0</sup> -->
+                                                                <i class="far fa-user"></i>
+                                                        </div>
+                                                </nav>
+                                        </div>
+                                        
+                                </div>
+                        </div>
+                </header>
+        </section>
+<!-- end of header section  -->
+<!-- slide photos  -->
+        <section class="slidephotos">
+                <div class="carousel">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                                <img src="img/pexels-maggie-zhan-1698482.jpg" class="d-block w-100 img" alt="...">
+                                                <div class="text" >
+                                                        <p class="text1">New women colothing</p>
+                                                        <h1 class="text2">Autumn Jeckets <br> Collection in 2021.</h1>
+                                                        <button class="btt">Shop Now</button>
+                                                </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="img/n4.jpg" class="d-block w-100 img" alt="...">
+                                                <div class="text">
+                                                        <p class="text1">New women colothing</p>
+                                                        <h1 class="text2">Autumn Jeckets <br> Collection in 2021.</h1>
+                                                        <button class="btt">Shop Now</button>
+                                                </div>
+                                                
+                                        </div>
+                                        <div class="carousel-item">
+                                                <img src="img/n3.jpg" class="d-block w-100 img" alt="...">
+                                                <div class="text3">
+                                                        <p class="text1">New women colothing</p>
+                                                        <h1 class="text2">Autumn Jeckets <br> Collection in 2021.</h1>
+                                                        <button class="btt">Shop Now</button>
+                                                </div>
+                                        </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                </a>
+                        </div>
+                </div>
+        </section>
+<!-- end of slide photos  -->
+<br>
+<!-- images section -->
+<section class="images">
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-6 col-12 imgbox">
+                                <img src="img/c1.jpg" alt="" class="img">
+                                <div class="text">
+                                        <h1 class="text1">Fashion Month <br> Ready in Capital <br> Shop</h1>
+                                        <p class="text2">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <button class="btt">
+                                                View All
+                                                <i class="fal fa-arrow-right" style="font-size: small;"></i>
+                                        </button>
+                                </div>
+                        </div>
+                        <div class="col-md-6 col-12 imgbox" >
+                                <img src="img/c2.jpg" alt="" class="img2">
+                                <div class="text">
+                                        <h1 class="text1">Catch the Sun: <br>
+                                        Summer Break Styles <br>
+                                        From $5.99</h1>
+                                        <p class="text2">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <button class="btt">
+                                                View All
+                                                <i class="fal fa-arrow-right" style="font-size: small;"></i>
+                                        </button>
+                                </div>
+                        </div>
+                        <div class="col-md-8 col-12 imgbox">
+                                <img src="img/c3.jpg" alt="" class="img3">
+                                <div class="text">
+                                        <h1 class="text1">Fashion Month <br> Ready in Capital <br> Shop</h1>
+                                        <p class="text2">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <button class="btt">
+                                                View All
+                                                <i class="fal fa-arrow-right" style="font-size: small;"></i>
+                                        </button>
+                                </div>
+                        </div>
+                        <div class="col-md-4 col-12 imgbox">
+                                <img src="img/c5.jpg" alt="" class="img4">
+                                <div class="text">
+                                        <h1 class="text1">Fashion Month <br> Ready in Capital <br> Shop</h1>
+                                        <p class="text2">Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                        <button class="btt">
+                                                View All
+                                                <i class="fal fa-arrow-right" style="font-size: small;"></i>
+                                        </button>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</section>
+<!-- end of images section  -->
+<br>
+<!-- best seller section  -->
+<section class="bestsseller">
+        <div class="container">
+                <div class="text"> BEST SELLER </div>
+                <div class="row">
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/bag.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Morbi vitae mi</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$39.92</span>
+                                                        <span class="ogprice">$49.90</span>
+                                                </p>
+                                                <p >
+                                                        <span class="star">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                                <p>
+                                                        <span>
+                                                                <i class="fas fa-circle circle1"></i>
+                                                                <i class="fas fa-circle circle2"></i>
+                                                                <i class="fas fa-circle circle3"></i>
+                                                        </span>
+                                                        <span class="no">
+                                                                +1
+                                                        </span>
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/bag2.jpg" class="card-img-top img" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h6 class="card-title title">Aenean quis </h6>
+                                                <p class="price">
+                                                        <span class="newprice">$29.00</span>
+                                                </p>
+                                                <p >
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/bag3.jpg" class="card-img-top img" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h6 class="card-title title">Maec vesti turpis</h6>
+                                                <p class="price">
+                                                        <span class="newprice">$29.00</span>
+                                                </p>
+                                                <p >
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/img4.jpg" class="card-img-top img" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h6 class="card-title title">Sed viverra felis</h6>
+                                                <p class="price">
+                                                        <span class="newprice">$11.90</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/bag5.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Aliquam erat volutpat</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$28.72</span>
+                                                        <span class="ogprice">$35.90</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/shoe1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Ut male eleifend</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$23.20</span>
+                                                        <span class="ogprice">$29.00</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/shoe2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Duis placerat eu</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$11.90</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div class="card">
+                                        <img src="img/shoe3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Nulla ac euismod</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$11.90</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        
+                </div>
+        </div>
+</section>
+<!-- end of best seller section  -->
+<!-- /* fixed image section */ -->
+<section class="fixedimgecover">
+        <div class="fixedimage">
+                <img src="img/fixed image.jpg" alt="" class="image">
+                <div class="text">
+                        <p class="parag">New Season Sale</p>
+                        <h2 class="discount">40% OFF</h2>
+                        <button class="btt">
+                                SHOP NOW 
+                                <i class="fal fa-arrow-right"></i>
+                        </button>
+                </div>
+        </div>
+
+</section>
+<!-- /* end of fixed image section */ -->
+<br>
+<!-- trending section  -->
+<section class="trending">
+        <div class="container">
+                <p class="text"> TRENDING</p>
+                <div class="row">
+                        <div class="col-md-3 col-6 ">
+                                <div>
+                                        <img src="img/shoe1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Ut Male Eleifend</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$23.20</span>
+                                                        <span class="ogprice">$29.00</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div>
+                                        <img src="img/img4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Sed Viverra Felis</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$11.90</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star2">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div>
+                                        <img src="img/t3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Sed Viverra Felis</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$35.00</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <div>
+                                        <img src="img/t4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body cardbody">
+                                                <h5 class="card-title title">Quisque Non Finibus</h5>
+                                                <p class="price">
+                                                        <span class="newprice">$18.90</span>
+                                                </p>
+                                                <p>
+                                                        <span class="star">
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                                <i class="fas fa-star"></i>
+                                                        </span>
+                                                        <!-- <span class="md-block d-none">(2 Reviews)</span> -->
+                                                </p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="btts">
+                        <button class="btt">MORE PRODUCT</button>
+                </div>
+        </div>
+</section>
+<br>
+<hr>
+<br>
+<!-- end of trending section -->
+<!-- blog section  -->
+<section class="blog">
+        <div class="container">
+                <p class="more">FROM OUR BLOG</p>
+                <div class="row">
+                        <div class="card-deck">
+                                <div class="card">
+                                        <img src="img/b1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                                <h5 class="card-title title">25 Feb, 2021 - 0 comments</h5>
+                                                <p class="card-text text"> Aliquam hendrerit mi metus </p>
+                                                <p class="card-text parag"><small >Read more</small></p>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                        <img src="img/b2.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                                <h5 class="card-title title">25 Feb, 2021 - 2 comments</h5>
+                                                <p class="card-text text">Vestibulum at orci aliquam</p>
+                                                <p class="card-text parag"><small>Read more</small></p>
+                                        </div>
+                                </div>
+                                <div class="card">
+                                        <img src="img/b3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                                <h5 class="card-title title">25 Feb, 2021 - 0 comments</h5>
+                                                <p class="card-text text">In congue magna sit nullam</p>
+                                                <p class="card-text parag"><small >Read more</small></p>
+                                        </div>
+                                </div>
+                        </div>
+
+                </div>
+        </div>
+</section>
+<!-- end of blog section  -->
+<br>
+<br>
+<br>
+<!-- info section  -->
+<section class="info">
+        <div class="container">
+                <div class="row shipping">
+                        <div class="col-md-3 col-6 ">
+                                <i class="fal fa-rocket"></i>
+                                <p class="text">Free Shipping</p>
+                                <p class="parag">orders $50 or more</p>
+                        </div>
+                        <div class="col-md-3 col-6">
+                                <i class="far fa-undo"></i>
+                                <p class="text">Free Returns</p>
+                                <p class="parag">within 30 days</p>
+                        </div>
+                        <div class="col-md-3 col-6  ">
+                                <i class="fal fa-info-circle"></i>
+                                <p class="text">Get 20% Off 1 Item</p>
+                                <p class="parag">when you sign up</p>
+                        </div>
+                        <div class="col-md-3 col-6 ">
+                                <i class="fal fa-life-ring"></i>
+                                <p class="text">We Support</p>
+                                <p class="parag">24/7 amazing services</p>
+                        </div>
+                </div>
+        </div>
+</section>
+<!-- end of info section  -->
+<!-- recieve deals section  -->
+<section class="recieve">
+        <div class="cover">
+                <div class="image">
+                        <img src="img/rc.jpeg" alt="" class="img">
+                        <div class="text">
+                                <form class="form-inline">
+                                        <div class="title">
+                                                <h5 class="deals">Get The Latest Deals</h5>
+                                                <p class="parag">and receive $20 coupon for first shopping</p>
+                                        </div>
+                                        <div class="form-group mx-sm-3 mb-2">
+                                                <input type="password" class="form-control label" id="inputPassword2"
+                                                        placeholder="Your email address">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mb-2 bttn">Subscribe</button>
+                                </form>
+                                <div class="form-check">
+                                        <input class="form-check-input checkbox" type="checkbox" value="" id="defaultCheck1">
+                                        <label class="form-check-label check" for="defaultCheck1">
+                                                Enim quis fugiat consequat elit minim nisi eu occaecat occaecat deserunt aliquip nisi ex deserunt.
+                                        </label>
+                                </div>
+                        </div>
+                </div>
+                
+                
+
+        </div>
+</section>
+<!-- end of recieve deals section -->
+<br>
+<!-- footer section  -->
+<section class="footer">
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-6 col-12">
+                                <h3 class="logo">
+                                        <img src="img/akira-logo.png" alt="" class="img">
+                                        <p class="parag">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, 
+                                                eu vulputate magna eros eu erat. Aliquam erat
+                                                volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+                                        </p>
+                                        <div class="row">
+                                                <div>
+                                                        <p class="text"> Got Question? Call us 24/7</p> 
+                                                        <p class="no"> +0123 456 789 </p>
+                                                </div>
+                                                <div>
+                                                        <p class="paymtext">Payment Method​</p>
+                                                        <img src="img/payments.png" alt="" class="paymimg">
+                                                </div>
+                                        </div>
+                                </h3>
+                        </div>
+                        <div class="col-md-2 col-12">
+                                <p  class="infotext">
+                                        Information
+                                </p>
+                                <ul class="list-group listgroup">
+                                        <li class="list">About us</li>
+                                        <li class="list">Legal Notice</li>
+                                        <li class="list">Addresses</li>
+                                        <li class="list">Order</li>
+                                        <li class="list">Payment</li>
+                                        <li class="list">Suppliers</li>
+                                </ul>
+                        </div>
+                        <div class="col-md-2 col-12 ">
+                                <p class="infotext">
+                                        My Account
+                                </p>
+                                <ul class="list-group listgroup">
+                                        <li class="list">Delivery</li>
+                                        <li class="list">Legal Notice</li>
+                                        <li class="list">About us</li>
+                                        <li class="list">Prices drop</li>
+                                        <li class="list">New products</li>
+                                        <li class="list">Best sales</li>
+                                </ul>
+                        </div>
+                        <div class="col-md-2 col-12 ">
+                                <p class="infotext">
+                                        Company
+                                </p>
+                                <ul class="list-group listgroup">
+                                        <li class="list">My account</li>
+                                        <li class="list">My Cart</li>
+                                        <li class="list">Identity</li>
+                                        <li class="list">Order</li>
+                                        <li class="list">Contact us</li>
+                                        <li class="list">Addresses</li>
+                                </ul>
+                        </div>
+                </div>
+        </div>
+</section>
+<!-- end of footer section  -->
+<hr>
+<!-- last section  -->
+<section class="last">
+        <div class="container">
+                <div class="row ">
+                        <div class="col-md-6 col-12 text">
+                                <p class="parag">
+                                        Copyright © 2021 Akira Store. All Rights Reserved.
+                                </p>
+                        </div>
+                        <div class="col-md-6 col-12 icons">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-google-plus"></i>
+                                <i class="fab fa-pinterest"></i>
+                                <i class="fab fa-instagram"></i>
+                        </div>
+                </div>
+        </div>
+
+</section>
+
+
+        <script src="js/main.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
